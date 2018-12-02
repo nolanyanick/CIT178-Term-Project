@@ -1,0 +1,63 @@
+--USE Music;
+
+--INSERT INTO Artists VALUES(1, 'The Beatles');
+--INSERT INTO Artists VALUES(2, 'Pink Floyd');
+--INSERT INTO Artists VALUES(12, 'The Black Keys');
+--INSERT INTO Artists VALUES(16, 'Kanye West');
+--INSERT INTO Artists VALUES(14, 'Daft Punk');
+
+--INSERT INTO Genre VALUES(1, 'Rock');
+--INSERT INTO Genre VALUES(2, 'Pop');
+--INSERT INTO Genre VALUES(3, 'Hip Hop');
+--INSERT INTO Genre VALUES(4, 'Disco');
+--INSERT INTO Genre VALUES(5, 'Garage Rock');
+--INSERT INTO Genre VALUES(6, 'Rock/Pop');
+--INSERT INTO Genre VALUES(7, 'Disco/Garage Disco');
+--INSERT INTO Genre VALUES(8, 'Progressive Rock');
+--INSERT INTO Genre VALUES(9, 'Rap');
+--INSERT INTO Genre VALUES(10, 'Country');
+--INSERT INTO Genre VALUES(11, 'Alternative Rock');
+--INSERT INTO Genre VALUES(12, 'Regae');
+--INSERT INTO Genre VALUES(13, 'Rock/Electronic');
+--INSERT INTO Genre VALUES(14, 'Folk');
+--INSERT INTO Genre VALUES(16, 'Psychedelic Rock/Pop');
+--INSERT INTO Genre VALUES(16, 'Folk/Rock');
+--INSERT INTO Genre VALUES(17, 'Country/Rock');
+
+--INSERT INTO [Media Type] VALUES('Vinyl', 29.99);
+--INSERT INTO [Media Type] VALUES('CD', 11.99);
+--INSERT INTO [Media Type] VALUES('MP3', 9.99);
+--INSERT INTO [Media Type] VALUES('Single Track', 1.29);
+--INSERT INTO [Media Type] VALUES('Discography', 99.99);
+
+--INSERT INTO [Record Label] VALUES(1, 'Apple Records', 'London', 'UK');
+--INSERT INTO [Record Label] VALUES(2, 'Harvest', 'Hollywood', 'USA');
+--INSERT INTO [Record Label] VALUES(3, 'Nonesuch', 'New York', 'USA');
+--INSERT INTO [Record Label] VALUES(4, 'Def Jam/Roc-a-Fella', 'New York', 'USA');
+--INSERT INTO [Record Label] VALUES(5, 'Virgin', 'Hollywood', 'USA');
+
+--INSERT INTO Albums VALUES(1, 1, 'The Beatles (White Album)', 'Vinyl', 6, 'November 22, 1968', 1);
+--INSERT INTO Albums VALUES(2, 2, 'Dark Side of the Moon', 'Vinyl', 8, 'March 1, 1973', 2);
+--INSERT INTO Albums VALUES(3, 12, 'Brothers', 'CD', 5, 'May 18, 2010', 3);
+--INSERT INTO Albums VALUES(4, 16, 'The College Dropout', 'CD', 3, '2004-2-10', 4);
+--INSERT INTO Albums VALUES(5, 14, 'Discovery', 'MP3', 7, '2001-2-6', 5);
+--INSERT INTO Albums VALUES(6, 1, 'Sgt. Peppers Lonley Hearts Club Band', 'Vinyl', 6, 'June 2, 1967', 1);
+--INSERT INTO Albums VALUES(7, 1, 'Revolver', 'Vinyl', 6, 'August 5, 1966', 1);
+--INSERT INTO Albums VALUES(8, 1, 'Rubber Soul', 'Vinyl', 6, 'December 3, 1965', 1);
+
+--INSERT INTO Track VALUES(1, 1, 'Ob-La-Di, Ob-La-Da', 2, '3:08');
+--INSERT INTO Track VALUES(2, 8, 'Time', 8, '6:53');
+--INSERT INTO Track VALUES(5, 4, 'Something About Us', 4, '3:51');
+--INSERT INTO Track VALUES(3, 5, 'Unknown Brother', 5, '4:00');
+--INSERT INTO Track VALUES(4, 3, 'All Falls Down', 3, '3:43');
+--INSERT INTO Track VALUES(6, 9, 'A Day in the Life', 15, '5:35');
+--INSERT INTO Track VALUES(6, 10, 'Lucy In The Sky with Diamonds', 15, '3:28');
+--INSERT INTO Track VALUES(6, 11, 'When Im Sixty Four', 15, '5:35');
+--INSERT INTO Track VALUES(7, 12, 'Eleanor Rigby', 15, '2:08');
+--INSERT INTO Track VALUES(7, 13, 'Taxman', 1, '2:39');
+--INSERT INTO Track VALUES(7, 14, 'Im Only Sleeping', 15, '3:02');
+--INSERT INTO Track VALUES(8, 15, 'In My Life', 6, '2:28');
+--INSERT INTO Track VALUES(8, 16, 'Norwegian Wood', 16, '2:05');
+--INSERT INTO Track VALUES(8, 17, 'Girl', 6, '2:33');
+--INSERT INTO Track VALUES(1, 18, 'Dear Prudence', 16, '3:56');
+--INSERT INTO Track VALUES(1, 19, 'Back In the USSR', 6, '2:43');
